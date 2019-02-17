@@ -3,9 +3,11 @@
 ## Parses Foreign Agents Registration Act (FARA) for all [Active Foreign Principals by Country or Location](https://efile.fara.gov/pls/apex/f?p=185:130:0::NO:RP,130:P130_DATERANGE:N).
 
 ### Instructions:
-Python 3 scrapy-splash example
+Python 3 scrapy-splash example.
 
-I tested it only for Ubuntu 18.04, for lower versions of Ubuntu you may need to install python3 by yourself
+I tested it only in Ubuntu 18.04, for lower versions of Ubuntu you may need to install python3 by yourself. 
+
+If you are using different OS you need to figure out how to run it. Basic idea is simple: run docker and then run spider.
 
 ### How to run:
 0. Get docker:
@@ -33,15 +35,15 @@ I tested it only for Ubuntu 18.04, for lower versions of Ubuntu you may need to 
 
 `source venv/bin/activate`
 
-6. Install Scrapy and scrapy-splash from source code:
+6. Inside your virtual environment install scrapy and scrapy-splash:
 
 `pip install scrapy && pip install scrapy-splash`
 
-7. *Run main.py in FARA_scraper folder:
+7. *Run *main.py* in FARA_scraper folder:
 
 `cd FARA_scraper/FARA_scraper/ && python main.py`
 
-7. *OR run the same command from the terminal:
+7. *OR run the same command from the terminal (*main.py* runs the same command):
 
 `scrapy crawl 'FARA_scraper'`
 
