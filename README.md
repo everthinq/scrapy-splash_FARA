@@ -47,4 +47,4 @@ If you are using different OS you need to figure out how to run it. Basic idea i
 
 `scrapy crawl 'FARA_scraper'`
 
-*After that items.json file will be created or modified at FARA_scraper/items.json
+*After that items.json file will be created or modified at *FARA_scraper/items.json*
