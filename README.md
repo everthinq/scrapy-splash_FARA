@@ -28,7 +28,9 @@ Instructions:
 `pip install scrapy && pip install scrapy-splash`
 
 7. *Run main.py in FARA_scraper folder:
+
 `cd FARA_scraper/FARA_scraper/`
+
 `python main.py`
 
 7. *OR run the same command from the terminal
