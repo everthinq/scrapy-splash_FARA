@@ -1,15 +1,18 @@
-# FARA_scraper
+# FARA scraper
 
 ## Parses Foreign Agents Registration Act (FARA) for all [Active Foreign Principals by Country or Location](https://efile.fara.gov/pls/apex/f?p=185:130:0::NO:RP,130:P130_DATERANGE:N).
 
-### Instructions: 
-(I tested it only for Ubuntu 18.04, for lower versions of Ubuntu you may need to install python3)
+### Instructions:
+Python 3 scrapy-splash example
 
+I tested it only for Ubuntu 18.04, for lower versions of Ubuntu you may need to install python3 by yourself
+
+### How to run:
 0. Get docker:
 
 `sudo apt-get update && sudo apt-get install docker.io`
 
-1. Run splash docker image 
+1. Run splash docker image:
 (Downloading docker image if there is no such image):
 
 `sudo docker run -p 8050:8050 scrapinghub/splash`
@@ -38,8 +41,8 @@
 
 `cd FARA_scraper/FARA_scraper/ && python main.py`
 
-7. *OR run the same command from the terminal
+7. *OR run the same command from the terminal:
 
 `scrapy crawl 'FARA_scraper'`
 
-*After that items.json file will be created (or modified) at FARA_scraper/items.json
+*After that items.json file will be created / modified at FARA_scraper/items.json
