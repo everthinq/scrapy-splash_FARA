@@ -28,9 +28,10 @@ Instructions:
 `pip install scrapy && pip install scrapy-splash`
 
 7. *Run main.py in FARA_scraper folder:
-```cd FARA_scraper/FARA_scraper/
-python main.py```
+`cd FARA_scraper/FARA_scraper/`
+`python main.py`
 
-7. *OR run the same command `scrapy crawl 'FARA_scraper'` from the terminal
+7. *OR run the same command from the terminal
+`scrapy crawl 'FARA_scraper'`
 
 *After that items.json file will be created (or modified) at FARA_scraper/items.json
