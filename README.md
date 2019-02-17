@@ -3,7 +3,7 @@
 ## Parses Foreign Agents Registration Act (FARA) for all [Active Foreign Principals by Country or Location](https://efile.fara.gov/pls/apex/f?p=185:130:0::NO:RP,130:P130_DATERANGE:N).
 
 ### Instructions:
-Python 3 scrapy-splash example.
+Python3 scrapy-splash example.
 
 I tested it only in Ubuntu 18.04, for lower versions of Ubuntu you may need to install python3 by yourself. 
 
