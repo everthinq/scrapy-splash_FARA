@@ -31,6 +31,7 @@ Instructions:
 `source venv/bin/activate`
 
 6. Install Scrapy and scrapy-splash from source code:
+
 `pip install scrapy && pip install scrapy-splash`
 
 7. *Run main.py in FARA_scraper folder:
