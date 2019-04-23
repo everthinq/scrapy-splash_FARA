@@ -49,6 +49,6 @@ If you are using different OS you need to figure out how to run it. Basic idea i
 
 *After that items.json file will be created or modified at *FARA_scraper/items.json*
 
-The first problem was that all data was grouped by Country. To solve this problem I've had to uncheck the "Country/Location Represented" checkbox. After that, all rows had their own country.<br/>
+The first problem was that all data was grouped by Country. To solve this problem I've had to uncheck the "Country/Location Represented" checkbox. After that, all rows had their own country.
 
 <br/>The second problem was that you need to click "Next" to get the next portion of data. I've solved this problem by listing all the data in a single page via JavaScript command. After that, I could scrape all the data by only one request.
