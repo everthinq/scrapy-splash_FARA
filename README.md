@@ -7,7 +7,7 @@ Python3 scrapy-splash example.
 
 I tested it only in Ubuntu 18.04, for lower versions of Ubuntu you may need to install python3 by yourself. 
 
-If you are using different OS you need to figure out how to run it. Basic idea is simple: run docker and then run spider.
+If you are using different OS you need to figure out how to run it. Basic idea is simple: run docker and then run the project.
 
 ### How to run:
 0. Get docker:
